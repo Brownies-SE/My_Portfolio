@@ -55,6 +55,12 @@ main {
   background-color: #f2f3f4;
 }
 
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 .card {
   padding: 10px;
   display: flex;
@@ -74,4 +80,8 @@ footer {
   color: white;
   display: flex;
   justify-content: center;
+}
+
+figcaption {
+  font-size: 24px;
 }
