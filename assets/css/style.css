@@ -1,3 +1,4 @@
+/* Making everthing a border-box */
 * {
   box-sizing: border-box;
 }
@@ -6,7 +7,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
 }
-
+/* Fixing the header for alignment and color */
 header {
   padding: 15px;
   background: #5d5c61;
@@ -17,14 +18,14 @@ header {
   justify-content: space-between;
   position: sticky;
 }
-
+/* making the list a flexbox */
 nav ul {
   display: flex;
   justify-content: space-around;
   min-width: 7%;
   list-style-type: none;
 }
-
+/* Making the list a flexbox */
 nav a {
   font-weight: bold;
   color: white;
@@ -33,19 +34,19 @@ nav a {
   text-decoration: none;
   padding: 20px;
 }
-
+/* styling the main content */
 main {
   display: flex;
   flex-wrap: wrap;
   background-color: #f2f3f4;
   padding: 20px;
 }
-
+/* Styling the about me section */
 .aboutMe {
   background-color: #f2f3f4;
   padding: 15px;
 }
-
+/* Styling the projects and the images */
 .projects {
   flex: 4;
   justify-content: center;
@@ -54,25 +55,25 @@ main {
   flex-wrap: wrap;
   background-color: #f2f3f4;
 }
-
+/* Styling the biggest image */
 .card1 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-
+/* styling the rest of the images */
 .card {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
 }
-
+/* styling the contact information section */
 .contactInfo {
   text-align: center;
   background-color: #7395ae;
   padding: 10px;
 }
-
+/* styling the footer */
 footer {
   padding: 10px;
   text-align: center;
@@ -81,7 +82,10 @@ footer {
   display: flex;
   justify-content: center;
 }
-
+/* styling the captions so they are readable */
 figcaption {
   font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
 }
