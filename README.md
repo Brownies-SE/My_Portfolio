@@ -6,7 +6,7 @@ This project was to test the understanding of basic HTML and CSS. This is a mock
 You will find some projects I have worked on recently as well as other from the past. There is a section that includes a little bit of my background and another with
 my contact information.
 
-![Image of firdt website](https://github.com/Brownies-SE/My_Portfolio/blob/main/assets/img/fullImage.png)
+![Image of first website](https://github.com/Brownies-SE/My_Portfolio/blob/main/assets/img/fullImage.png)
 
 # Intallation
 

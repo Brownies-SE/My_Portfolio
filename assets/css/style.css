@@ -6,6 +6,10 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
+  display: flex;
+  font-size: 20px;
+  line-height: 1.5;
+  flex-direction: column;
 }
 /* Fixing the header for alignment and color */
 header {
@@ -36,43 +40,73 @@ nav a {
 }
 /* styling the main content */
 main {
+  display: block;
+}
+/* setting the container to be a flex container */
+.container {
   display: flex;
-  flex-wrap: wrap;
-  background-color: #f2f3f4;
-  padding: 20px;
+}
+/* styling the heading */
+.heading {
+  align-self: center;
+  min-width: 90%;
+  text-align: center;
+  padding: 0.5rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* styling the left side */
+.leftSide {
+  border-bottom: 0.4rem solid;
+  margin: 0.5rem 0;
+}
+
+/* styling the projects */
+.project {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1 rem;
+}
+/* styling the a tags */
+a {
+  text-decoration: none;
 }
 /* Styling the about me section */
 .aboutMe {
   background-color: #f2f3f4;
   padding: 15px;
 }
-/* Styling the projects and the images */
-.projects {
-  flex: 4;
-  justify-content: center;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f2f3f4;
+
+.work {
+  margin: 5px;
+  padding: 5px;
+  flex-direction: column;
 }
-/* Styling the biggest image */
-.card1 {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-/* styling the rest of the images */
-.card {
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 /* styling the contact information section */
 .contactInfo {
   text-align: center;
   background-color: #7395ae;
   padding: 10px;
+  display: inline;
 }
+/* Styling the images */
+img {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+}
+
+.card1 {
+  height: 300px;
+  width: 300px;
+}
+/* .text {
+  position: absolute;
+  padding: 10px;
+} */
 /* styling the footer */
 footer {
   padding: 10px;
@@ -82,10 +116,9 @@ footer {
   display: flex;
   justify-content: center;
 }
-/* styling the captions so they are readable */
-figcaption {
-  font-size: 24px;
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  .work {
+    flex-direction: row;
+  }
 }

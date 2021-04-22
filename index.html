@@ -35,58 +35,36 @@
     </section>
     <!-- Beginning of the main content -->
     <main>
-      <h2><a name="work"></a>Work:</h2>
-      <div class="projects">
-        <section class="card1">
-          <!-- Creating a figure and making sure each image is a link to another site -->
-          <figure>
-            <a
-              href="https://brownies-se.github.io/HTML_Code_Refactor/"
-              target="_blank"
-            >
-              <img
-                src="./assets/img/photography-account-1sSfrozgiFk-unsplash.jpg"
-                height="400"
-                width="400"
-                alt="Bid picture with MacBook Pro opening"
-            /></a>
-            <!-- Making sure there is a caption for each image -->
-            <figcaption>My First Repository</figcaption>
-          </figure>
-        </section>
-        <section class="card">
-          <a href="https://github.com/Brownies-SE" target="_blank">
-            <img
-              src="./assets/img/sam-albury-oA7MMRxTVzo-unsplash.jpg"
-              height="200"
-              width="200"
-              alt="smaller picture showing a keyboard"
-          /></a>
-          <figcaption>Github</figcaption>
-        </section>
-        <section class="card">
-          <a href="https://github.com/Brownies-SE" target="_blank">
-            <img
-              src="./assets/img/markus-spiske-rWKhlvk-bsM-unsplash.jpg"
-              height="200"
-              width="200"
-              alt="smaller picture showing code"
-          /></a>
-          <figcaption>Github</figcaption>
-        </section>
-        <section class="card">
-          <a href="https://github.com/Brownies-SE" target="_blank">
-            <img
-              src="./assets/img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
-              height="200"
-              width="200"
-              alt="smaller picture showing code"
-          /></a>
-          <figcaption>Github</figcaption>
-        </section>
-      </div>
+      <section id="work" class="container work"> </section>
+      <section>
+        <h2><a name="work"></a>Work:</h2>
+        <div class="leftSide"></div>
+      </section>
+      <!-- Adding a container and attemptint to move the elements to the middle -->
+      <section class="content container"></section>
+        <a href="https://github.com/Brownies-SE/HTML_Code_Refactor" target="_blank">
+          <img class="card1" src="./assets/img/photography-account-1sSfrozgiFk-unsplash.jpg" alt="Latptop opening">
+            <div class="text">
+              <span class="project">Code Refactor</span>
+            </div>
+        </a>
+        <!-- another element in the container -->
+        <a href="https://github.com/Brownies-SE/CompSci/tree/main/Comp%20Sci%202/HW5" target="_blank">
+          <img src="./assets/img/sam-albury-oA7MMRxTVzo-unsplash.jpg" alt="Picture of a keyboard">
+            <div class="text">
+              <span class="project">Linked List</span>
+            </div>
+        </a>
+                <!-- another element in the container -->
+        <a href="https://github.com/Brownies-SE/CompSci/blob/main/algorithms%20%26%20analysis/arbitrage.py" target="_blank">
+          <img src="./assets/img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Picture of code">
+            <div class="text">
+              <span class="project">Arbitrage</span>
+            </div>
+        </a>
+
     </main>
-    <!-- Starting the Contact Information -->
+    <!-- Starting the Contact Information/ Will change to list to help the formatting-->
     <section class="contactInfo">
       <h2><a name="contactMe"></a>Contact Information:</h2>
       <p>Email: brownjoshalan@gmail.com</p>
